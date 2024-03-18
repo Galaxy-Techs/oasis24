@@ -274,8 +274,8 @@ iframe + h3{
     color: #00563f;
   }
   .live:hover{
-    background: #d4af37;
-    color: #043927;
+    background: #043927;
+    color: oldlace;
     scale: 1.05;
     transition: scale 0.5s ease-in;
   }
@@ -392,4 +392,6 @@ footer img{
 footer article{
     color: #ffff;
     font-size: 1rem;
+    font-style: italic; font-weight: bold;
+    font-family: "Cormorant Garamond", serif;
 }
