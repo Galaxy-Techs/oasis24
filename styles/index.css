@@ -124,6 +124,17 @@ header,main>div{
     bottom: 5rem;
     font-weight: bold;
 }
+.jl div>p{
+    /* text-shadow: 
+        2px 2px 1px #fff,
+        -2px 3px 1px #fff,
+        -2px -2px 0 #fff,
+        2px -2px 0#fff; */
+    color: #fff;
+    text-shadow: -3px 0px 5px #000;
+    font-size: 1.2rem;
+
+}
 .jl h2{
     font-size: 3rem;
 }
