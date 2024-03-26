@@ -1,4 +1,15 @@
+// typewriter
+let i = 0;
+let txt = "Lisa & John";
+let speed = 100;
 
+function typewriter(){
+  if (i < txt.length){
+    document.getElementById("landj").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout (typewriter, speed);
+  }
+}
 
 // menu toggle button
 const toggleBtn = document.querySelector(".toggle-btn");

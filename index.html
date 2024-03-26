@@ -19,7 +19,7 @@
     <!-- customized styles -->
     <link rel="stylesheet" href="./styles/index.css"> 
 </head>
-<body>
+<body onload="typewriter()">
     <section>
         <main class="hero" >
             <!-- header start -->
@@ -52,7 +52,7 @@
                 </div>
                 <div class="jl" data-aos="fade-up">
                     <div>
-                        <h2> Lisa & John</h2>
+                        <h2 id="landj"></h2>
                         <p>
                             <i>...He offers a resting place for me in His luxurious love, His tracks take me to an oasis of peace, the quiet brook of bliss.
                                 <br></i>
@@ -82,7 +82,7 @@
                 <!-- Story -->
                 <div class="stories" id="stories">
                     <div>
-                        <h2 data-aos="fade-down">Groom's Story</h2>
+                        <h2 data-aos="fade-down" class="capitalize">Groom's Story</h2>
                         <p data-aos="fade-up">
                             2021 was a pivotal year in my life as I sought divine guidance for my marital journey. <br> <br>
                             Fast forward to the month of August I was scrolling through my friend's WhatsApp status updates when I stumbled upon a picture of a lady. Her face captivated me, and I knew in my spirit that she was meant to be my wife, in fact, those were the exact words I muttered to myself that day.
@@ -98,7 +98,7 @@
                         </p>
                     </div>
                     <div>
-                        <h2 data-aos="fade-down">Bride's Story</h2>
+                        <h2 data-aos="fade-down" class="capitalize">Bride's Story</h2>
                         <p data-aos="fade-up">
                             Three years before we met, God took me out of a relationship that wasn't His will for me. I told God that period, "Lord, just as you have taken me out of this wrong relationship, lead my husband to me and I to him". God told me He had settled it, so I didn't feel a need to pray for a husband anymore. I just had peace about it, stayed single to heal and became committed to serving God in every capacity.
                         </p>
@@ -122,7 +122,7 @@
                 <!-- Schedules -->
                 <div id="schedule" data-aos="zoom-in">
                     <div data-aos="fade-up">
-                        <h2 id="sched">Schedule</h2>
+                        <h2 id="sched" class="capitalize">Schedule</h2>
                         <h3>SATURDAY APRIL 27, 2023</h3>
                         <hr>
                         <h3>Church Wedding</h3>
@@ -131,13 +131,13 @@
                     <div>
                         <h4>
                             <i class="fa-solid fa-shirt"></i>&nbsp;
-                           Color: Green, Gold &amp; White.
+                           Color code: Green, Gold &amp; White.
                         </h4>
-                        <h4>
+                        <!-- <h4 class="">
                             <i class="fa-solid fa-map-location-dot"></i>&nbsp;&nbsp;
                             <a href="https://www.google.com/maps/place/J74W%2BX95+Living+Faith+Church+Capernaum,+Raji+Oba+St,+Alimosho,+Lagos+102213,+Lagos/@6.6073776,3.295987,17z/data=!4m6!3m5!1s0x103b90ff7e9d86f1:0x971837186f0869ff!8m2!3d6.6073776!4d3.295987!16s%2Fg%2F1tf83mdl">Living Faith Church Capernaum, Raji Oba Street, Alimosho, Lagos State.</a>
                         </h4>
-                        <iframe data-aos="zoom-in"  frameborder="0" style="height:60vh; width:100%; border-radius: 1rem;" src="https://www.google.com/maps/embed/v1/place?q=Living+Faith+Church+Capernaum,+Raji+Oba+Street,+Lagos+Alimosho,+Nigeria&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                        <iframe data-aos="zoom-in"  frameborder="0" style="height:60vh; width:100%; border-radius: 1rem;" src="https://www.google.com/maps/embed/v1/place?q=Living+Faith+Church+Capernaum,+Raji+Oba+Street,+Lagos+Alimosho,+Nigeria&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe> -->
                         <h3>Engagement and Reception Follows afterwards</h3>
                     </div>
                 </div>
@@ -148,41 +148,35 @@
                 </div> -->
                 <!-- Gallery -->
                 <div class="gallery" id="gallery">
-                    <h2>Gallery</h2>
+                    <h2 class="capitalize">Gallery</h2>
                     <div id="carouselExampleFade" class="carousel slide carousel-fade" mb-5 data-aos="slide-up">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="./images/pros (7).jpg" class="d-block w-100" alt="...">
+                            <img src="./images/pre2.PNG" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="./images/gallery.PNG" class="d-block w-100" alt="...">
+                            <img src="./images/pre3.PNG" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="./images/gallery 4.png" class="d-block w-100" alt="...">
+                            <img src="./images/pre4.PNG" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="./images/pros (2).jpg" class="d-block w-100" alt="...">
+                            <img src="./images/pre5.PNG" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="./images/gallery (1).jpeg" class="d-block w-100" alt="...">
+                            <img src="./images/pre6.PNG" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="./images/pros (4).jpg" class="d-block w-100" alt="...">
+                            <img src="./images/pre7.PNG" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="./images/gallery (2).jpeg" class="d-block w-100" alt="...">
+                            <img src="./images/pre8.PNG" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="./images/pros (1).jpg" class="d-block w-100" alt="...">
+                            <img src="./images/pre9.PNG" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
                             <img src="./images/gallery (2).PNG" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./images/pros (14).jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./images/gallery (3).PNG" class="d-block w-100" alt="...">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -197,7 +191,7 @@
                 </div>
                 <!-- Registry -->
                 <div id="registry">
-                    <h2 data-aos="zoom-in">Registry</h2>
+                    <h2 data-aos="zoom-in" class="capitalize">Registry</h2>
                     <p data-aos="flip-right">
                         Based on your desire to support our wedding, you can make your financial donations below <br><br>
                         <b>Account Name: Odina John Makafan <br>
